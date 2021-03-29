@@ -20,6 +20,7 @@ SUBCOMMANDS:
         reinstall           -- reclone.
         activation          -- echo 'source <path>' to eval
         activation-script   -- echo the path to the activation script
+        meta                -- the tag of the mydts home.
 
 DESCRIPTION:
         A front end to the 'magic-monty' prompt. Allows downloading
@@ -38,6 +39,11 @@ msg () {
 case $1. in
     .|-h|--help.)
         usage
+        exit
+        ;;
+    meta.)
+        echo ${META}
+        exit
         ;;
 esac
 
