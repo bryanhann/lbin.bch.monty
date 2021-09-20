@@ -1,2 +1,0 @@
-export PATH=${PATH}:${PWD}
-source ${PWD}/insitu.d/bch_monty.sh
