@@ -1,3 +1,2 @@
 #!/source/this/sh
-#export PATH=${PATH}:$(dirname ${PWD})
 source ./bch_monty.sh
